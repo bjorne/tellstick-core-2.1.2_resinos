@@ -1,6 +1,7 @@
 # resinOS binaries and source for telldus-core 2.1.2
 
-telldus-core is (c) Telldus 
+telldus-core is (c) Telldus
+
 Original files can be found here http://developer.telldus.com/
 
 Modified to enable compilation on resinOS in order to try to get tellstick duo working on hass.io.
