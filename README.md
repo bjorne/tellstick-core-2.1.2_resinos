@@ -12,7 +12,7 @@ Source archive contain modified complete source for telldus-core 2.1.2
 Source archive also includes build.sh that automates all build steps, including installation of dependancy libraries and compilers.
 
 
-###Following changes has been made:
+### Following changes has been made:
 ```
 service/CMakeLists.txt
 	Change:
