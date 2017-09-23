@@ -1,0 +1,14 @@
+-- Install configuration: ""
+-- Installing: /usr/local/sbin/telldusd
+-- Installing: /etc/tellstick.conf
+-- Installing: /var/state/telldus-core.conf
+-- Installing: /usr/local/lib/libtelldus-core.so.2.1.2
+-- Installing: /usr/local/lib/libtelldus-core.so.2
+-- Installing: /usr/local/lib/libtelldus-core.so
+-- Installing: /usr/local/include/telldus-core.h
+-- Installing: /usr/local/bin/tdtool
+-- Set runtime path of "/usr/local/bin/tdtool" to ""
+-- Installing: /usr/local/sbin/tdadmin
+-- Set runtime path of "/usr/local/sbin/tdadmin" to ""
+-- Installing: /etc/udev/rules.d/05-tellstick.rules
+-- Installing: /usr/local/share/telldus-core/helpers/udev.sh
