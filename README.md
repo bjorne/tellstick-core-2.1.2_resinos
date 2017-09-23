@@ -2,7 +2,7 @@
 
 telldus-core is (c) Telldus
 
-Original files can be found here http://developer.telldus.com/
+Original files can be found here http://developer.telldus.com/ or https://github.com/telldus/telldus/tree/master/telldus-core
 
 Modified to enable compilation on resinOS in order to try to get tellstick duo working on hass.io.
 
