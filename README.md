@@ -8,6 +8,7 @@ Modified to enable compilation on resinOS in order to try to get tellstick duo w
 
 Binaries archive contain executables and files created by make install. 
 (May require chmod +x for the binaries?)
+Will most likely require installation of libftdi1 and confuse to run binaries.
 
 Source archive contain modified complete source for telldus-core 2.1.2 
 Source archive also includes build.sh that automates all build steps, including installation of dependancy libraries and compilers.
