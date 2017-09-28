@@ -1,0 +1,11 @@
+{
+  "name": "Tellstick Core",
+  "version": "0.7",
+  "slug": "tellstick_core",
+  "description": "Tellstick Core daemon and tools required to communicate with Tellstick duo",
+  "startup": "services",
+  "boot": "auto",
+  "privileged": ["SYS_ADMIN", "NET_ADMIN", "SYS_RAWIO"],
+  "options": {},
+  "schema": {}
+}
