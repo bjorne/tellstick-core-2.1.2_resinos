@@ -11,6 +11,10 @@ Binaries folder contain executables and files created by make install on raspber
 Binaries are dependant upon confuse, libftdi1 and libstdc++ 
 (apk add --no-cache confuse libftdi1 libstdc++)
 
+* Added hass.io addon files to play with the daemon and libraries.
+telldusd executes with segmentation fault.
+
+
 Source archive contain modified source for telldus-core 2.1.2 to enable compilation. 
 Source archive also includes build.sh that automates all build steps, including installation of dependancy libraries and compilers.
 
