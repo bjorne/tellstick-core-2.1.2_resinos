@@ -6,13 +6,13 @@ Original files can be found here http://developer.telldus.com/ or https://github
 
 Modified to enable compilation on resinOS in order to try to get tellstick duo working on hass.io.
 
-Binaries folder contain executables and files created by make install on raspberry pi 3. 
+Binaries folder contain executables and files compiled on raspberry pi 3 (via hass.io ssh add-on). 
 
-Binaries are dependant upon confuse, libftdi1 and libstdc++ 
+* Binaries are dependant upon confuse, libftdi1 and libstdc++ 
 (apk add --no-cache confuse libftdi1 libstdc++)
 
-* Added hass.io addon files to play with the daemon and libraries.
-telldusd executes with segmentation fault.
+* Added hass.io addon files in order to try to get the daemon and libraries to just execute.
+However..telldusd executes with segmentation fault.
 
 
 Source archive contain modified source for telldus-core 2.1.2 to enable compilation. 
