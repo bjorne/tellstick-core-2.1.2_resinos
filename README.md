@@ -6,12 +6,12 @@ Original files can be found here http://developer.telldus.com/ or https://github
 
 Modified to enable compilation on resinOS in order to try to get tellstick duo working on hass.io.
 
-Binaries archive contain executables and files created by make install. 
-(May require chmod +x for the binaries?)
+Binaries folder contain executables and files created by make install on raspberry pi 3. 
 
-Will most likely require installation of libftdi1 and confuse to run binaries.
+Binaries are dependant upon confuse, libftdi1 and libstdc++ 
+(apk add --no-cache confuse libftdi1 libstdc++)
 
-Source archive contain modified complete source for telldus-core 2.1.2 
+Source archive contain modified source for telldus-core 2.1.2 to enable compilation. 
 Source archive also includes build.sh that automates all build steps, including installation of dependancy libraries and compilers.
 
 
