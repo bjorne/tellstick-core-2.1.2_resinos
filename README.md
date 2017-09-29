@@ -12,7 +12,7 @@ Binaries folder contain executables and files compiled on raspberry pi 3 (via ha
 (apk add --no-cache confuse libftdi1 libstdc++)
 
 * Added hass.io addon files in order to try to get the daemon and libraries to just execute.
-However..telldusd executes with segmentation fault.
+In order for the telldus daemon to execute in a docker it needs access to usb (/dev/bus/usb)
 
 
 Source archive contain modified source for telldus-core 2.1.2 to enable compilation. 
