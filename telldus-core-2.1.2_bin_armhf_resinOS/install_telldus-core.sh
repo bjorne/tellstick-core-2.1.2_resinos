@@ -4,9 +4,9 @@ echo "Installing dependencies..."
 docker exec homeassistant apk add --no-cache confuse libftdi1 libstdc++
 
 echo "Copying telldus binaries, libraries and config files..."
-docker exec homeassistant cp -R /share/telldus-core/etc /etc
-docker exec homeassistant cp -R /share/telldus-core/usr /usr
-docker exec homeassistant cp -R /share/telldus-core/var /var
+docker exec homeassistant cp -R /share/telldus-core/etc /
+docker exec homeassistant cp -R /share/telldus-core/usr /
+docker exec homeassistant cp -R /share/telldus-core/var /
 
 echo "Adding telldusd service to start up on container start..."
 docker exec homeassistant awk '/udevadm trigger/ { print; print "telldusd &"; next}1' /usr/bin/entry.sh > /resin-data/share/tempentry.sh
