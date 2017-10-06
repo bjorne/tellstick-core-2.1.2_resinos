@@ -1,0 +1,7 @@
+This will install telldus core on the homeassistant docker for experimenting
+tellstick.conf will be editable in /config share.
+
+It will not commit to the docker so after reboot the docker will be reset (and tellstick core removed)
+
+* It will not be able to communicate with tellstick in the current state.
+Tellstick not found error.
