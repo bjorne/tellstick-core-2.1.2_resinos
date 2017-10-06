@@ -8,6 +8,10 @@ docker exec homeassistant cp -R /share/telldus-core/etc /
 docker exec homeassistant cp -R /share/telldus-core/usr /
 docker exec homeassistant cp -R /share/telldus-core/var /
 
+echo "Adding tellstick.conf in Config dir.."
+docker exec homeassistant cp /share/telldus-core/tellstick.conf /config
+docker exec homeassistant ln -s /config/tellstick.conf /etc/tellstick.conf
+
 echo "Adding telldusd service to start up on container start..."
 docker exec homeassistant awk '/udevadm trigger/ { print; print "telldusd &"; next}1' /usr/bin/entry.sh > /resin-data/share/tempentry.sh
 docker exec homeassistant cp /share/tempentry.sh /usr/bin/entry.sh
